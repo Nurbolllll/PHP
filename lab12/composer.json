@@ -1,0 +1,19 @@
+{
+  "name": "student/lab12-pdo-crud",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "scripts": {
+    "check": [
+      "@php -l public/index.php",
+      "@php tests/run.php"
+    ]
+  }
+}
